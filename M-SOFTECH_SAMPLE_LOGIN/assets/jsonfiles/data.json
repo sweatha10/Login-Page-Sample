@@ -1,0 +1,61 @@
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "avatar": "https://reqres.in/img/faces/6-image.jpg",
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson"
+        },
+        {
+            "id": 2,
+            "avatar": "https://reqres.in/img/faces/7-image.jpg",
+            "email": "sweatha.swea@reqres.in",
+            "first_name": "Sweatha",
+            "last_name": "Swea"
+        },
+        {
+            "id": 3,
+            "avatar": "https://reqres.in/img/faces/8-image.jpg",
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson"
+        },
+        {
+            "id": 4,
+            "avatar": "https://reqres.in/img/faces/9-image.jpg",
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke"
+        },
+        {
+            "id": 5,
+            "avatar": "https://reqres.in/img/faces/10-image.jpg",
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields"
+        },
+        {
+            "id": 6,
+            "avatar": "https://reqres.in/img/faces/11-image.jpg",
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards"
+        },
+        {
+            "id": 7,
+            "avatar": "https://reqres.in/img/faces/12-image.jpg",
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}

@@ -1,0 +1,98 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.register-content{
+    background-image: linear-gradient(rgba(51, 37, 73, 0.425), rgba(51, 37, 73, 0.425)), url(../assets/images/img_forest.jpg) ;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8% ;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+    
+.regtitle{
+    color:rgb(18, 48, 23) ;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.registerform{
+    width: 45%;
+    height: 83%;
+    display: block;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    background-color: #fff;
+    resize: none;
+    position: fixed;
+    left: 24%;
+    top: 10px;
+    color: rgb(18, 48, 23);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .form-cont{
+    padding: 10px 0px;
+  }
+
+  .registerbttn{
+    padding: 18px 0px;
+  }
+  
+  label::after {
+    content: "*";
+    color: red;
+}
+
+.errormsg{
+    font-size: 13px;
+    color:red;
+}
+
+.image{
+    width: 65px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.fillform{
+    display: none;
+    color: #e43131;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+}
