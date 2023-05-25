@@ -11,14 +11,26 @@
 </head>
 
 <body onload="displayuname();">
+    <header class="header">
+        <div class="logo-img"><img src="../assets/images/logo-img.png"></div>
+        <h2 class="help">Help</h2>
+    </header>
     <div class="container">
-        <h1 class="welcomepage" id="welcomepage">Welcome  <span id="nameatribute" ></span> !</h1>
-<br><br>
-<button onclick="getjson()">Show Table</button> 
+        <h1 class="welcomepage" id="welcomepage">Welcome <span id="nameatribute"></span> !</h1>
+        <br><br>
+        <button onclick="getjson()">Show Table</button>
         <div class="table-cont" id="table-cont">
             <table class="jsontable" id="jsontable"></table>
         </div>
     </div>
-    
+    <footer class="footer">
+        <ul class="footer-list">
+            <li>About</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+        </ul>    
+    </footer>
+
 </body>
+
 </html>

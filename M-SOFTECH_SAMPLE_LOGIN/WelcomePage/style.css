@@ -2,10 +2,40 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
+    background-color: #f1ecec;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.help {
+    color: rgb(179, 182, 182);
+    float: right;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
 }
 
 .container {
-    background-image: linear-gradient(rgba(51, 37, 73, 0.425), rgba(51, 37, 73, 0.425)), url(../assets/images/img_forest.jpg);
     width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -20,32 +50,42 @@ body {
     color: #fff;
     position: absolute;
     top: 5%;
-    left: 26%;
+    left: 35%;
     text-align: center;
-    font-size: 266%;
+    font-size: 20px;
+    font-weight: 400;
     font-style: oblique;
 }
 
 .table-cont {
     display: none;
-    /* background-color: rgba(216, 208, 197, 0.507); */
     width: 30%;
     position: absolute;
     left: 25%;
-    margin-top: 10%;
+    top: 23%;
     padding: 10px 11px 10px 10px;
 }
 
 button{
     position: absolute;
-    top: 20%;
-    left: 38%;
-    background-color:rgba(216, 208, 197, 0.507) ;
+    top: 17%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(236, 42, 8);
+    background-image: linear-gradient(to bottom right, #FFA949, #FF6647);
     color: #fff;
+    width: 10%;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 35%;
+   
 }
 
 button:hover{
-    box-shadow: 1px 2px 4px #fff;
+    box-shadow: 1px 2px 4px #FF6647;
 }
 
 table {
@@ -71,7 +111,7 @@ th {
     border-right: none;
     text-align: left;
     padding: 8px 15px 8px 15px;
-    color:#fff;
+    color:#030303;
 }
 
 th{
@@ -79,30 +119,57 @@ th{
 }
 
 td img {
-    width: 39%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 61%;
 }
 
 tr:nth-child(even){
-    background-color:#ffffff33 ;
+    /* background-color: rgb(236, 42, 8); */
+    background-image: linear-gradient(to bottom right, #ffaa49a2, #ff6647a2);
 }
 
 tr:nth-child(even):hover{
-    box-shadow: 1px 2px 8px #fff;
+    box-shadow: 1px 2px 8px #FF6647;
 }
 
 tr:nth-child(odd){
-    background-color: rgba(216, 208, 197, 0.507);
+    /* background-color: rgba(216, 208, 197, 0.822); */
+    background-image: linear-gradient(to bottom right, #7c7975a2, #cec7c6a2);
 }
 
 tr:nth-child(odd):hover{
-    box-shadow: 1px 2px 8px #fff;
+    box-shadow: 1px 2px 8px #7e7877;
 }
 
 .higlight{
-    background-color: rgba(124, 197, 136, 0.651);
-    box-shadow: 1px 5px 10px rgb(189, 233, 196);
+    background-color: #F1ECEC;
+    /* background-image: linear-gradient(to bottom right, #ffffffa2, #696665a2); */
+    box-shadow: 1px 2px 8px #0f0f0ff3;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+.footer-list {
+    list-style-type: none;
+    position: fixed;
+    overflow: hidden;
+    font-size: 13px;
+    left: 33%;
+}
+
+.footer-list li {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    color: rgb(179, 182, 182);
 }

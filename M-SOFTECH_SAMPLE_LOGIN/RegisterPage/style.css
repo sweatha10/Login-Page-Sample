@@ -1,98 +1,160 @@
 body {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #f1ecec;
 }
 
-.register-content{
-    background-image: linear-gradient(rgba(51, 37, 73, 0.425), rgba(51, 37, 73, 0.425)), url(../assets/images/img_forest.jpg) ;
-    width: 100%;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 10px 8% ;
-    background-repeat: no-repeat;
-    position: fixed;
-}
-    
-.regtitle{
-    color:rgb(18, 48, 23) ;
-    font-weight: 100;
-    font-size: 25px;
-    text-align: center;
-    padding: 0px 0px 10px 0px;
+.header {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  height: 15%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-weight: bold;
 }
 
-.registerform{
-    width: 45%;
-    height: 83%;
-    display: block;
-    margin: 20px 30px;
-    padding: 10px 20px;
-    background-color: #fff;
-    resize: none;
-    position: fixed;
-    left: 24%;
-    top: 10px;
-    color: rgb(18, 48, 23);
-    font-size: 16px;
-    font-weight: 300;
+.logo-img {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 10%;
 }
 
-input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  .form-cont{
-    padding: 10px 0px;
-  }
-
-  .registerbttn{
-    padding: 18px 0px;
-  }
-  
-  label::after {
-    content: "*";
-    color: red;
+.help {
+  color: rgb(179, 182, 182);
+  float: right;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
 }
 
-.errormsg{
-    font-size: 13px;
-    color:red;
+.register-content {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  background-repeat: no-repeat;
+  position: fixed;
 }
 
-.image{
-    width: 65px;
-    position: absolute;
-    top: 15%;
-    left: 40%;
+.regtitle {
+  color: rgb(18, 48, 23);
+  font-weight: 100;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
 }
 
-.fillform{
-    display: none;
-    color: #e43131;
-    position: absolute;
-    top: 15%;
-    left: 37%;
+.registerform {
+  width: 35%;
+  height: 65%;
+  display: block;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  resize: none;
+  position: fixed;
+  left: 29%;
+  top: 15%;
+  color: rgb(18, 48, 23);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=button] {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(236, 42, 8);
+  background-image: linear-gradient(to bottom right, #FFA949, #FF6647);
+  color: #fff;
+  width: 70%;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 14%;
+  top: 87%;
+}
+
+button[type=button]:hover {
+  background-image: linear-gradient(to bottom right, #fa9c30, #f75737);
+}
+
+.form-cont {
+  padding: 5px 0px;
+}
+
+.registerbttn {
+  padding: 10px 0px;
+}
+
+label::after {
+  content: "*";
+  color: red;
+}
+
+.errormsg {
+  font-size: 13px;
+  color: red;
+  position: absolute;
+  left: 20%;
+}
+
+.image {
+  width: 65px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+
+.fillform {
+  display: none;
+  color: #e43131;
+  position: absolute;
+  top: 15%;
+  left: 37%;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+}
+
+.footer-list {
+  list-style-type: none;
+  position: fixed;
+  overflow: hidden;
+  font-size: 13px;
+  left: 33%;
+}
+
+.footer-list li {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  color: rgb(179, 182, 182);
 }

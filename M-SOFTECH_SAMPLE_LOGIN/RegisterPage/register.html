@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="registerscript.js"></script>
     <title>Register</title>
 </head>
 
 <body>
-
+    <header class="header">
+        <div class="logo-img"><img src="../assets/images/logo-img.png"></div>
+        <h2 class="help">Help</h2>
+    </header>
     <div class="register-content">
-        <form class="registerform" id="registerform" name="registerform" action="/WelcomePage/target.html"  method="post">
+        <form class="registerform" id="registerform" name="registerform">
             <h3 class="regtitle"> Register Form</h3>
             <div class="fillform" id="fillform">Please Fillup The Form</div>
             <div class="form-cont">
@@ -22,26 +25,29 @@
                 <img class="image" id="output"/>
             </div>
             <div class="form-cont">
-                <label for="email">Email</label>
+                <label for="email">Email</label><span class="errormsg" id="emailError"></span>
                 <input type="text" id="email" name="email" placeholder="Enter Your Email Address" onblur="validateEmail()" required>
-                <span class="errormsg" id="emailError"></span>
             </div>
             <div class="form-cont">
-                <label for="firstname">First Name</label>
-                <input type="text" id="frstname" placeholder="Enter Your First Name" onblur="validateFirstname()" required>
-                <span class="errormsg" id="fnameError"></span>
+                <label for="firstname">First Name</label><span class="errormsg" id="fnameError"></span>
+                <input type="text" id="firstname" placeholder="Enter Your First Name" onblur="validateFirstname()" required>
             </div>
             <div class="form-cont">
-                <label for="lastname">Last Name</label>
-                <input type="text" id="lstname" placeholder="Enter Your Last Name" onblur="validateLastname()" required>
-                <span class="errormsg" id="lnameError"></span>
+                <label for="lastname">Last Name</label><span class="errormsg" id="lnameError"></span>
+                <input type="text" id="lastname" placeholder="Enter Your Last Name" onblur="validateLastname()" required>
             </div>
             <div class="registerbttn">
-            <input type="submit" value="Register" onsubmit="return regform(registerform)" onclick="return submit()">
+            <button type="button" value="Register" onclick="return regform(registerform)" >Register</button>
         </div>
         </form>
     </div>
-
+    <footer class="footer">
+        <ul class="footer-list">
+            <li>About</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+        </ul>    
+    </footer>
 </body>
 
 </html>
